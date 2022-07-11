@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Number validation</h1>
+    <input id="inp" class="inp" type="number" onkeypress="asdf()">
+</body>
+<script>
+
+    function asdf(){
+        
+        let lentext = document.getElementById("inp").value;
+         if(lentext.length >=10){
+            alert('Not Allowed');
+           
+         }
+    }
+    // function cl(){
+    //     inp=document.getElementById("inp").value
+    //     inp.ma
+    // }
+
+    // function clk() {
+    //     console.log("Clicked")
+    //     inp = document.getElementById("inp").value;
+    //     if (inp> 9999999999 || inp < 1000000000) {
+    //         alert("Invalid Number")
+    //     }
+    //     else{
+    //         alert("Valid Number")
+    //     }
+
+    // }
+</script>
+
+</html>
